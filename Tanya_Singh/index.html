@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanya_Singh</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/android-chrome-192x192.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/tanya.jpg" alt="Tanya Singh" width="50 px">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Tanya_Singh">Tanya Singh</h1>
+
+          <p class="title">AIML Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="tanyaaa0070@gmail.com" class="contact-link">tanyaaa0070@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+----------" class="contact-link">----------</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2005-11-09">November 09, 2005</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>45th km, NH - 209,Jakkasandra Post, Bengaluru - Kanakapura Rd, Bengaluru, Karnataka 562112
+              </address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/tanyaaa0070" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/tanya-singh05/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi! I'm Tanya Singh, a second-year B.Tech student specializing in Artificial Intelligence and Machine
+            Learning at Jain (Deemed-to-be) University, Bangalore. I'm deeply passionate about technology and its power
+            to solve real-world problems.
+
+          <p>
+            When I’m not coding or managing tech events, I love designing graphics and experimenting with new ways to
+            make technology more user-friendly and meaningful.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/icon-dev.svg" " alt=" design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title"> Front-End Development</h4>
+
+                <p class="service-item-text">
+                  Creating responsive and user-friendly interfaces using HTML, CSS, and JavaScript.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/icon-app.svg" alt=" Back-End Development" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title"> Back-End Development</h4>
+
+                <p class="service-item-text">
+                  Building and managing server-side logic, databases, and APIs using Python and SQL.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img
+                  src="./assets/artificial-intelligence-icon-artificial-intelligence-icon-ai-icon-Qxnqr3Li-removebg-preview.png"
+                  alt=" AI & Data Projects" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title"> AI & Data Projects</h4>
+
+                <p class="service-item-text">
+                  Exploring machine learning, prompt engineering, and OpenAI tools to build smart, data-driven
+                  solutions.
+
+
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/club.png" alt="Club logo" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Core member</h4>
+
+                <p class="service-item-text">
+                  As an active member of my college’s tech club and a volunteer for event management, I enjoy
+                  collaborating with like-minded peers to innovate and grow
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+        <div class="modal-container" data-modal-container>
+
+            <div class="overlay" data-overlay></div>
+  
+            <section class="testimonials-modal">
+  
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </article>
+             <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Decent School</h4>
+
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ST John's Sr Sec School</h4>
+
+              <span>2022 — 2023</span>
+
+              <p class="timeline-text">
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Jain University</h4>
+
+              <span>2023 — 2027</span>
+
+              <p class="timeline-text">
+                A second-year B.Tech student specializing in Artificial Intelligence and Machine Learning at Jain
+                (Deemed-to-be) University, Bangalore.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Design team member</h4>
+
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+                As a member of the design team at Turing Club, I specialize in creating impactful posters and logos for
+                our initiatives. My focus is on delivering visually compelling and professional designs that effectively
+                communicate the essence of our club's vision and activities.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Core Team member</h4>
+
+              <span>2024 — present</span>
+
+              <p class="timeline-text">
+                As an active member of my university's technology club and a dedicated volunteer for event management
+                initiatives, I actively participate in both college-level and pan-India hackathons, where I collaborate
+                with like-minded peers to drive innovation, enhance technical skills, and contribute to impactful
+                solutions.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web development</h4>
+
+              <span>20__ — 20__</span>
+
+              <p class="timeline-text">
+                I am actively involved in web development, specializing in both front-end and back-end technologies to
+                build responsive, user-centric websites. In addition to my academic projects, I contribute to
+                open-source initiatives and undertake freelance client work, allowing me to apply my skills in
+                real-world scenarios, meet project deadlines, and deliver high-quality solutions tailored to user needs.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web development</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Designing</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Event management</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">DSA</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Well-rounded</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+            <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+  
+            </ul>
+  
+            <div class="filter-select-box">
+  
+              <button class="filter-select" data-select>
+  
+                <div class="select-value" data-selecct-value>Select category</div>
+  
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+  
+              </button>
+  
+              <ul class="select-list">
+  
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+  
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+  
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+  
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+  
+              </ul>
+  
+            </div>
+  
+            <ul class="project-list">
+  
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="logo-html"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/HTML5.png" alt="HTML" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">HTML</h3>
+  
+                  <p class="project-category">Web development</p>
+  
+                </a>
+              </li>
+  
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <!-- <ion-icon name="eye-outline"></ion-icon> -->
+                      <!-- <div style="position:relative;display:inline-block" onmouseover="this.children[1].style.display='block'" onmouseout="this.children[1].style.display='none'"><ion-icon name="eye-outline" style="font-size:32px;cursor:pointer"></ion-icon><img src="./assets/css.png" style="display:none;position:absolute;top:40px;left:0;width:150px;border-radius:8px;box-shadow:0 0 10px rgba(0,0,0,0.3)"></div> -->
+  
+                    </div>
+  
+                    <!-- <img src="./assets/css.png" alt="CSS" loading="lazy"> -->
+                    <img src="./assets/CSS3 (1).png" alt="CSS Icon" width="50" />
+                  </figure>
+  
+                  <h3 class="project-title">CSS</h3>
+  
+                  <p class="project-category">Web development</p>
+  
+                </a>
+              </li>
+  
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <!-- <ion-icon name="eye-outline"></ion-icon> -->
+                       
+                    </div>
+  
+                    <img src="./assets/JavaScript.png" alt="JavaScript" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">JavaScript</h3>
+  
+                  <p class="project-category">Web development</p>
+  
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <!-- <ion-icon name="eye-outline"></ion-icon> -->
+                    </div>
+  
+                    <img src="./assets/Node.js.png" alt="Node.js" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Node.js</h3>
+  
+                  <p class="project-category">Web development</p>
+  
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <!-- <ion-icon name="eye-outline"></ion-icon> -->
+                    </div>
+  
+                    <img src="./assets/React.png" alt="React" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">React</h3>
+  
+                  <p class="project-category">Web development</p>
+  
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <!-- <ion-icon name="eye-outline"></ion-icon> -->
+                    </div>
+  
+                    <img src="./assets/Vue.js.png" alt="Vue.js" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Vue.js</h3>
+  
+                  <p class="project-category">Web development</p>
+  
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <!-- <ion-icon name="eye-outline"></ion-icon> -->
+                    </div>
+  
+                    <img src="./assets/MySQL.png" alt="SQL" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">SQL</h3>
+  
+                  <p class="project-category">Web development</p>
+  
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <!-- <ion-icon name="eye-outline"></ion-icon> -->
+                    </div>
+  
+                    <img src="./assets/Angular.png" alt="AngularJs" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">AngularJs</h3>
+  
+                  <p class="project-category">Web development</p>
+  
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="web development">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <!-- <ion-icon name="eye-outline"></ion-icon> -->
+                    </div>
+  
+                    <img src="./assets/Redux.png" alt="Redux.js" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Redux.js</h3>
+  
+                  <p class="project-category">Web development</p>
+  
+                </a>
+              </li>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <!-- <ion-icon name="eye-outline"></ion-icon> -->
+                  </div>
+
+                  <img src="./assets/Java.png" alt="Java" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Java</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <!-- <ion-icon name="eye-outline"></ion-icon> -->
+                  </div>
+
+                  <img src="./assets/MongoDB.png" alt="MongoDB" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MongoDB</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web design">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/Tailwind CSS.png" alt="UI Frameworks: Tailwind CSS" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Tailwind CSS</h3>
+  
+                  <p class="project-category">Web design</p>
+  
+                </a>
+              </li>
+  
+              <li class="project-item  active" data-filter-item data-category="web design">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/Figma.png" alt="Figma" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Figma</h3>
+  
+                  <p class="project-category">Web design</p>
+  
+                </a>
+              </li>
+              <li class="project-item  active" data-filter-item data-category="web design">
+                <a href="#">
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/Canva.png" alt="Canva" loading="lazy">
+                  </figure>
+  
+                  <h3 class="project-title">Canva</h3>
+  
+                  <p class="project-category">Web design</p>
+  
+                </a>
+              </li>
+            </section>
+
+        </article>
+  
+  
+  
+  
+  
+        <!--
+          - #BLOG
+        -->
+        <!-- <!--  -->
+        <article class="" data-page="projects">
+  
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+  
+          <section class="blog-posts">
+  
+            <ul class="blog-posts-list">
+  
+              <li class="blog-post-item">
+                <a href="#">
+  
+                  <figure class="blog-banner-box">
+                    <img src="./assets/Online Payment Fraud Detection using Machine Learning in Python.png" alt="Design conferences in 2022" loading="lazy">
+                  </figure>
+  
+                  <div class="blog-content">
+  
+                    <div class="blog-meta">
+                      <p class="blog-category">Machine Learning</p>
+  
+                      <span class="dot"></span>
+  
+                      <time datetime="2022-02-23">March 10, 2025</time>
+                    </div>
+  
+                    <h3 class="h3 blog-item-title">Online-Payment-Fraud-Detection-using-Machine-Learning-in-Python</h3>
+  
+                    <p class="blog-text">
+                      This project focuses on detecting online payment fraud using Machine Learning in Python by analyzing
+                      transactional patterns and identifying anomalies with high accuracy. It leverages libraries like
+                      scikit-learn and pandas on real-world imbalanced datasets to build efficient fraud detection models.
+                    </p>
+  
+                  </div>
+  
+                </a>
+              </li>
+            </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62296.89783304841!2d77.4415193!3d12.6385723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae5ba6acfd5b77%3A0xf3fbc18fcba34b1b!2sJain%20Global%20Campus%2C%20Karnataka%20562121!5e0!3m2!1sen!2sin!4v1713100000000!5m2!1sen!2sin"
+              width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" width="400" height="300"
+              loading="lazy"></iframe>
+          </figure>
+        </section>
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formspree.io/f/xnnprnno" method="POST" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+        
+    </section>
+
+        </article>
+
+</div>
+
+</main>
+ <!--
+    - custom js link
+  -->
+      <script src="./script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </body>
+
+    </html>
+
+
